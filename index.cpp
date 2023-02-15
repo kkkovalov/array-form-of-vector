@@ -18,8 +18,8 @@ int * resizeArray(int* array){
     for(int i = 0; i < _capacity; i++){
         newArray[i] = *(array + i);
     };
-    int *pAr = newArray;
-    consoleResult(pAr);
+    //int *pAr = newArray;
+    //consoleResult(pAr);
 
     return newArray;
 }
@@ -46,12 +46,5 @@ int main(void){
         pushback(pArr, &entryValue);
         consoleResult(pArr);
     }
-
-    
-
-
-    //Implement a vector (mutable array with automatic resizing)
-
-
     return 0;
 };
